@@ -6,5 +6,6 @@ resource "aws_sqs_queue" "demo_queue" {
   tags = {
     Environment = "Local"
     Project     = "TerraformValidation"
+    Version     = "v1.1"
   }
 }
