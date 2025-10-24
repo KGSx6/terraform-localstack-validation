@@ -1,8 +1,14 @@
 # Terraform LocalStack SQS Validation 🚀
 
-Este proyecto usa **Terraform** con **LocalStack** para simular una cola **Amazon SQS** localmente.  
-Además, incluye una **validación automática** con **GitHub Actions**.
+Este proyecto usa **Terraform** con **LocalStack** para simular una cola **SQS** localmente.  
+Incluye un workflow de **GitHub Actions** que ejecuta `terraform validate` automáticamente en cada push.
 
 ---
 
-## 🧩 Estructura del proyecto
+## ⚙️ Estado del Workflow
+![Terraform Validate](https://github.com/TU_USUARIO/terraform-localstack-validation/actions/workflows/terraform-validate.yml/badge.svg)
+
+---
+
+## 📁 Estructura
+
